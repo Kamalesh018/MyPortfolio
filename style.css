@@ -1,0 +1,65 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.container{
+    font-size: 25px;
+    
+}
+
+img{
+    border-radius: 50%;
+}
+
+.title{
+    float: left;
+    padding-top: 130px;
+
+}
+
+.explain{
+    padding-left: 500px;
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+
+hr{
+    margin-left: 345px;
+    margin-right: 345px;
+}
+
+.fs-4 {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+
+.nav-link{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.btn{
+    padding: 10px;
+    margin-top: 15px;  
+}
+
+
+
+
